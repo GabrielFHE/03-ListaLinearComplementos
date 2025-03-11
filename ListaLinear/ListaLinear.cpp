@@ -131,7 +131,6 @@ void excluirElemento()
 		cout << "Nao existe esse numero na lista." << endl;
 		return;
 	}
-
 	
 	for (int i = pos; i < nElementos - 1; i++) {
 		lista[i] = lista[i + 1];
